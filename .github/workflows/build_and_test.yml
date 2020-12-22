@@ -26,7 +26,7 @@ jobs:
         rosdep update
         DEBIAN_FRONTEND=noninteractive rosdep install \
           --default-yes \
-          --from-paths livox_sdk_vendor \
+          --from-paths . \
           --ignore-src \
           --rosdistro foxy
 
